@@ -11,35 +11,37 @@
     a {
       text-decoration: none;
     }
+    
+    div.relative {
+      position: relative;
+  } 
+  
+    div.absolute {
+      position: absolute;
+      top: 30px;
+      right: 50px;
+  }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 992px) {
       /* For Mobile */
-      #custom_display img{
+      .custom_display img{
         width: 100%;
         margin: 0;
       }
-      #custom_display button{
-        position: fixed;
-        right: 0;
-        top: 6px;
-      }
-      .custom_display{
+      .custom_display_tab{
         width: 100%;
       }
-    }
 
-    @media only screen and (min-width: 768px) {
-      /* For Tablets */
-      #custom_display img{
-        width: 30%;
-        margin: 0;  
-      }
-      #custom_display button{
-        position: fixed;
-        right: 0;
-        top: 10px;
+      .custom_display_tab img{
+        width: 50%;
       }
       
+      .custom_display_tab button{
+        position: fixed;
+        right: 0;
+        top: 4px;
+        font-size: 40px;
+      }
     }
 
     /* Customize the scrollbar */
