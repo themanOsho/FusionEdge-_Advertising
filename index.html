@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/logo.png" type="image/x-icon">
+    <title>Fusion Edge Advertising</title>
+    <link rel="stylesheet" href="css/4/w3.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/w3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Moirai+One&family=PT+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/c75a29d236.js" crossorigin="anonymous">
+        // Fa fa Icons
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js">
+        // Script to activate animations on Scroll, data-aos(animation on scroll)="value" 
+    </script>
+    <script>
+        // set animation duration 
+        AOS.init({
+            duration: 3000,
+        });
+        // Open & close sidebar
+        function openRightMenu() {
+            document.getElementById("rightMenu").style.display = "block";
+        }
+        function closeRightMenu() {
+            document.getElementById("rightMenu").style.display = "none";
+        }
+        // Open According in Sidebar
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+    <!-- End Script -->
+    <header class="w3-black">
+        <!-- Top (Hide on Medium & Small Screens)-->
+        <div class="w3-row w3-hide-medium w3-hide-small w3-container">
+            <div class="w3-half w3-bar w3-container">
+                <i class="fa fa-phone w3-bar-item"> <b><a class="w3-btn w3-hover-none w3-hover-text-gray"
+                            href="tel:+386068934479" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                            068934479</a></b></i>
+                <i class="fa fa-envelope w3-bar-item"> <b><a class="w3-btn w3-hover-none w3-hover-text-gray"
+                            href="mailto:zec.matic@gmail.com?subject=Get In Touch&body=Please enter your message"
+                            style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                            zec.matic@gmail.com</a></b></i>
+            </div>
+            <div class="w3-half w3-bar w3-container w3-right-align">
+                <a class="w3-btn w3-hover-none w3-hover-text-gray" target="_blank"
+                    href="https://instagram.com/top_g__breathe_air?igshid=MzNlNGNkZWQ4Mg=="
+                    style="font-family: Georgia, 'Times New Roman', Times, serif;"><i
+                        class="fa fa-instagram w3-bar-item"></i></a>
+            </div>
+        </div>
+        <!-- Header Large Screens -->
+        <div class="w3-row-padding w3-hide-small w3-hide-medium">
+            <div class="w3-container w3-half w3-bar" style="width: 50%;">
+                <div class="w3-bar-item" style="width: 50%;">
+                    <img src="media/logo2.png" alt="Brand Logo" width="40%">
+                    <div>
+                        <h4 class="w3-justify w3-small w3-hide-small w3-hide-medium w3-text-blue"><b>FusionEdge<br>Media</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-container w3-half w3-bar w3-right"
+                style="margin-top: 2%;">
+                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#home"><b>Home</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#about"><b>About Us</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#contact"><b>Contact Us</b></a>
+            </div>
+        </div>
+        <!-- Header Large Screens -->
+        <div class="w3-row-padding w3-hide-large">
+            <div class="w3-half w3-bar" style="width: 50%;">
+                <div id="custom_display" class="w3-bar-item" style="width: 50%;">
+                    <img src="media/logo2.png" alt="Brand Logo" width="40%">
+                    <div>
+                        <h4 class="w3-justify w3-small w3-hide-small w3-hide-medium w3-text-blue"><b>FusionEdge<br>Media</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-half">
+                <button class="w3-button w3-text-blue w3-hover-none w3-hover-text-gray"
+                    style="position: fixed; right: 0; top: 8px;" onclick="openRightMenu()">&#9776; MENU</button>
+            </div>
+            <!-- Sidebar -->
+            <div class="w3-sidebar w3-bar-block w3-card w3-teal w3-animate-right"
+                style="display:none; width: 100%;right:0; top: 0;" id="rightMenu">
+                <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-small">Close &times;</button>
+                    <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#home"><b>Home</b></a>
+                    <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#about"><b>About Us</b></a>
+                    <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#contact"><b>Contact Us</b></a>
+            </div>
+            <!--
+                <div class="w3-container w3-half w3-bar w3-right"
+                style="margin-top: 2%;">
+                
+            </div>
+            -->
+        </div>
+    </header>
+</body>
+
+</html>
