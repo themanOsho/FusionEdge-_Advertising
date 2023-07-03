@@ -14,8 +14,11 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Moirai+One&family=PT+Serif&display=swap"
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Diphylleia&family=Marck+Script&family=Merienda:wght@800&family=Moirai+One&family=PT+Serif&family=Tenor+Sans&family=Yeseva+One&display=swap"
         rel="stylesheet">
 </head>
 
@@ -52,54 +55,56 @@
     <header class="w3-black">
         <!-- Top (Hide on Medium & Small Screens)-->
         <div class="w3-row w3-hide-medium w3-hide-small w3-container">
-            <div class="w3-half w3-bar w3-container">
+            <div class="w3-twothird w3-bar w3-container">
                 <i class="fa fa-phone w3-bar-item"> <b><a class="w3-btn w3-hover-none w3-hover-text-gray"
                             href="tel:+386068934479" style="font-family: Georgia, 'Times New Roman', Times, serif;">
                             068934479</a></b></i>
                 <i class="fa fa-envelope w3-bar-item"> <b><a class="w3-btn w3-hover-none w3-hover-text-gray"
-                            href="mailto:zec.matic@gmail.com?subject=Get In Touch&body=Please enter your message"
+                            href="mailto:fusionedge.advertising@gmail.com?subject=Get In Touch&body=Please enter your message"
                             style="font-family: Georgia, 'Times New Roman', Times, serif;">
-                            zec.matic@gmail.com</a></b></i>
+                            fusionedge.advertising@gmail.com</a></b></i>
             </div>
-            <div class="w3-half w3-bar w3-container w3-right-align">
+            <div class="w3-third w3-bar w3-container w3-right-align">
                 <a class="w3-btn w3-hover-none w3-hover-text-gray" target="_blank"
                     href="https://instagram.com/top_g__breathe_air?igshid=MzNlNGNkZWQ4Mg=="
                     style="font-family: Georgia, 'Times New Roman', Times, serif;"><i
                         class="fa fa-instagram w3-bar-item"></i></a>
             </div>
         </div>
+        <hr style="width: 96%; margin: auto;">
         <!-- Header Large Screens -->
         <div class="w3-row-padding w3-hide-small w3-hide-medium">
-            <div class="w3-container w3-half w3-bar" style="width: 50%;">
-                <div class="w3-bar-item" style="width: 50%;">
-                    <img src="media/logo2.png" alt="Brand Logo" width="40%">
-                    <div>
-                        <h4 class="w3-justify w3-small w3-hide-small w3-hide-medium w3-text-blue">
-                            <b>FusionEdge<br>Media</b></h4>
-                    </div>
+            <div class="w3-half relative" style="width: fit-content;">
+                <img src="media/logo2.png" class="w3-margin" alt="Brand Logo" width="40%">
+                <div class="absolute" style="width: fit-content;">
+                    <h4 class="w3-large w3-hide-small w3-hide-medium w3-text-blue">
+                        <b>FusionEdge<br>Media</b>
+                    </h4>
                 </div>
             </div>
-            <div class="w3-container w3-half w3-bar w3-right" style="margin-top: 2%;">
+            <div class="w3-container w3-half w3-bar w3-right" style="margin-top: 4%;">
                 <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#home"><b>Home</b></a>
                 <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#about"><b>About Us</b></a>
                 <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#contact"><b>Contact Us</b></a>
             </div>
         </div>
-        <!-- Header Large Screens -->
-        <div id="custom_display" class="w3-hide-large">
+        <!-- Header Small & Medium Screens -->
+        <div class="w3-hide-large">
             <div class="w3-top w3-black w3-row-padding">
-                <div class="w3-half w3-bar" style="width: 50%;">
+                <div class="w3-half w3-mobile w3-bar" style="width: 50%;">
                     <div class="w3-bar-item" style="width: 50%;">
                         <img src="media/logo2.png" alt="Brand Logo" width="40%">
                         <div>
                             <h4 class="w3-justify w3-small w3-hide-small w3-hide-medium w3-text-blue">
-                                <b>FusionEdge<br>Media</b></h4>
+                                <b>FusionEdge<br>Media</b>
+                            </h4>
                         </div>
                     </div>
                 </div>
                 <div class="w3-half">
-                    <button class="w3-button w3-text-blue w3-hover-none w3-hover-text-gray"
-                        onclick="openRightMenu()"><b>&#9776; MENU</b></button>
+                    <button class="w3-button w3-text-blue w3-xlarge w3-hover-none w3-hover-text-gray"
+                        style="position: fixed; right: 0; top: 8px;" onclick="openRightMenu()"><b>&#9776;
+                            MENU</b></button>
                 </div>
             </div>
             <!-- Sidebar -->
@@ -126,29 +131,43 @@
     </main>
     <footer class="w3-black">
         <div class="w3-container w3-padding-large w3-row">
-            <div class="w3-third w3-mobile custom_display">
+            <div class="w3-third w3-mobile custom_display_tab">
                 <h3 class="w3-margin" style="font-weight: 900;">FusionEdge Advertising</h3>
-                <p class="w3-tiny w3-padding"><i>Lorem ipsum dolor sit amet, consectetur adipisicing 
-                    elit. Voluptate voluptas fuga quis ea deserunt error explicabo minima amet ipsa 
-                    autem a, labore tempora aut veritatis eveniet nobis! Repudiandae, ut. Officiis.</i></p>
-                
+                <p class="w3-tiny w3-padding"><i>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Voluptate voluptas fuga quis ea deserunt error explicabo minima amet ipsa
+                        autem a, labore tempora aut veritatis eveniet nobis! Repudiandae, ut. Officiis.</i></p>
+
             </div>
-            <div class="w3-third w3-bar-block w3-mobile w3-small custom_display">
-                <h3 class="w3-margin" style="font-weight: 600;">Useful Links</h3>
-                <a href="#" id="address" class="w3-bar-item w3-hover-text-gray">Home</a>
-                <a href="#" id="address" class="w3-bar-item w3-hover-text-gray">About Us</a>
-                <a href="#" id="address" class="w3-bar-item w3-hover-text-gray">Contact Us</a>
+            <div class="w3-third w3-mobile w3-small custom_display_tab">
+                <h4 class="w3-margin" style="font-weight: 600;">Useful Links</h4>
+                <div class="w3-bar-block w3-padding">
+                    <a href="#" id="address" class="w3-bar-item w3-hover-text-gray">Home</a>
+                    <a href="#" id="address" class="w3-bar-item w3-hover-text-gray">About Us</a>
+                    <a href="#" id="address" class="w3-bar-item w3-hover-text-gray">Contact Us</a>
+                </div>
             </div>
-            <div class="w3-third w3-bar-block w3-mobile w3-small custom_display">
-                <h3 class="w3-margin" style="font-weight: 600;">Contact Details</h3>
-                <i class="fa fa-phone w3-bar-item"> <b><a class="w3-btn w3-hover-none w3-hover-text-gray"
-                    href="tel:+386068934479" style="font-family: Georgia, 'Times New Roman', Times, serif;">
-                    068934479</a></b></i>
-                <i class="fa fa-envelope w3-bar-item"> <b><a class="w3-btn w3-hover-none w3-hover-text-gray"
-                    href="mailto:fusionedge.advertising@gmail.com?subject=Get In Touch&body=Please enter your message"
-                    style="font-family: Georgia, 'Times New Roman', Times, serif;">
-                    fusionedge.advertising@gmail.com</a></b></i>
+            <div class="w3-third w3-bar-block w3-mobile w3-small custom_display_tab">
+                <h4 class="w3-margin" style="font-weight: 600;">Contact Details</h4>
+                <div class="w3-bar-block w3-padding">
+                    <i class="fa fa-phone w3-bar-item"> <b><a class="w3-btn w3-hover-none w3-hover-text-gray"
+                                href="tel:+386068934479" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                                068934479</a></b></i>
+                    <i class="fa fa-envelope w3-bar-item"> <b><a class="w3-btn w3-hover-none w3-hover-text-gray"
+                                href="mailto:fusionedge.advertising@gmail.com?subject=Get In Touch&body=Please enter your message"
+                                style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                                fusionedge.advertising@gmail.com</a></b></i>
+                </div>
             </div>
+        </div>
+        <hr style="width: 96%; margin: auto;">
+        <div class="w3-container w3-small w3-bar">
+            <h6 class="w3-small w3-bar-item"><i class="fa-solid fa-copyright"></i> Copyright 2023 - <span
+                    style="font-family: 'Caprasimo', cursive;">FusionEdge Advertising.</span> All rights are reserved
+            </h6>
+            <a class="w3-btn w3-bar-item  w3-hover-none w3-hover-text-gray w3-right" target="_blank"
+                href="https://instagram.com/top_g__breathe_air?igshid=MzNlNGNkZWQ4Mg=="
+                style="font-family: Georgia, 'Times New Roman', Times, serif;"><i
+                    class="fa fa-instagram w3-bar-item"></i></a>
         </div>
     </footer>
 </body>
