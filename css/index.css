@@ -12,11 +12,18 @@
       text-decoration: none;
     }
 
-    @media only screen and (max-width: 992px) {
-
-      /* For Tablets & Mobile */
+    @media only screen and (max-width: 600px) {
+      /* For Mobile */
       #custom_display img{
         width: 100%;
+        margin: 0;
+      }
+    }
+
+    @media only screen and (width: 992px) {
+      /* For Tablets */
+      #custom_display img{
+        width: 30%;
         margin: 0;
         
       }
