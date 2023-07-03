@@ -1,0 +1,40 @@
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    div {
+      margin: 0;
+    }
+
+    /* Set text decoration for all links to none*/
+    a {
+      text-decoration: none;
+    }
+
+    @media only screen and (max-width: 992px) {
+
+      /* For Tablets & Mobile */
+      #custom_display img{
+        width: 100%;
+        margin: 0;
+        
+      }
+    }
+
+    /* Customize the scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: white;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: gray;
+      border-radius: 10px;
+    }
