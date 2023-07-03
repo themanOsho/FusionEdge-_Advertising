@@ -31,16 +31,11 @@
       .custom_display_tab{
         width: 100%;
       }
-
-      .custom_display_tab img{
-        width: 50%;
+      .services h1{
+        text-align: center;
       }
-      
-      .custom_display_tab button{
-        position: fixed;
-        right: 0;
-        top: 4px;
-        font-size: 40px;
+      .services hr{
+        margin: auto;
       }
     }
 
