@@ -86,9 +86,9 @@
             </div>
         </div>
         <!-- Header Large Screens -->
-        <div class="w3-row-padding w3-hide-large">
+        <div id="custom_display" class="w3-row-padding w3-hide-large">
             <div class="w3-half w3-bar" style="width: 50%;">
-                <div id="custom_display" class="w3-bar-item" style="width: 50%;">
+                <div class="w3-bar-item" style="width: 50%;">
                     <img src="media/logo2.png" alt="Brand Logo" width="40%">
                     <div>
                         <h4 class="w3-justify w3-small w3-hide-small w3-hide-medium w3-text-blue"><b>FusionEdge<br>Media</b></h4>
@@ -97,22 +97,16 @@
             </div>
             <div class="w3-half">
                 <button class="w3-button w3-text-blue w3-hover-none w3-hover-text-gray"
-                    style="position: fixed; right: 0; top: 8px;" onclick="openRightMenu()">&#9776; MENU</button>
+                     onclick="openRightMenu()"><b>&#9776; MENU</b></button>
             </div>
             <!-- Sidebar -->
-            <div class="w3-sidebar w3-bar-block w3-card w3-teal w3-animate-right"
-                style="display:none; width: 100%;right:0; top: 0;" id="rightMenu">
-                <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-small">Close &times;</button>
+            <div class="w3-sidebar w3-bar-block w3-card w3-black w3-animate-right w3-small"
+                style="display:none; width: 100%;height: fit-content; right:0; top: 0;" id="rightMenu">
+                <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-text-blue w3-hover-none w3-hover-text-gray">Close &times;</button><br><br>
                     <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#home"><b>Home</b></a>
                     <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#about"><b>About Us</b></a>
                     <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#contact"><b>Contact Us</b></a>
             </div>
-            <!--
-                <div class="w3-container w3-half w3-bar w3-right"
-                style="margin-top: 2%;">
-                
-            </div>
-            -->
         </div>
     </header>
 </body>
