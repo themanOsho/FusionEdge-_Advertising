@@ -84,8 +84,9 @@
             </div>
             <div class="w3-container w3-half w3-bar w3-right" style="margin-top: 4%;">
                 <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#home"><b>Home</b></a>
-                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#about"><b>About Us</b></a>
-                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#contact"><b>Contact Us</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#about"><b>About</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#services"><b>Services</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray" href="#contact"><b>Contact</b></a>
             </div>
         </div>
         <!-- Header Small & Medium Screens -->
@@ -114,19 +115,18 @@
                     class="w3-bar-item w3-button w3-text-blue w3-hover-none w3-right-align w3-hover-text-gray">Close
                     &times;</button><br><br>
                 <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray w3-right-align"
-                    href="#home"><b>Home</b></a>
-                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray w3-right-align" href="#about"><b>About
-                        Us</b></a>
-                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray w3-right-align" href="#contact"><b>Contact
-                        Us</b></a>
+                    href="#"><b>Home</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray w3-right-align" href="#about"><b>About</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray w3-right-align" href="#services"><b>Services</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-hover-text-gray w3-right-align" href="#contact"><b>Contact</b></a>
             </div>
         </div>
     </header>
     <main class="w3-black"> <br><br><br><br>
         <!-- About -->
-        <div class="w3-black services">
+        <div id="about" class="w3-black">
             <div class="w3-container w3-row" style="width: 90%; margin: auto;">
-                <div class="w3-half w3-round-xlarge w3-mobile custom_display_tab " style="height: 450px;">
+                <div class="w3-half w3-round-xlarge w3-mobile custom_display_tab">
                     <div class="w3-display-container w3-hide-medium w3-hide-small" style="height: 300px;">
                         <h4 class="w3-xlarge"><b>An advertising agency, where creativity meets strategy and innovation
                                 fuels success</b></h4>
@@ -157,13 +157,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="w3-half w3-round-xlarge w3-mobile custom_display_tab w3-border">
-                    <img src="media/using_tablet.png" class="w3-border" alt="man_using_laptop" style="max-width: 100%; height: fit-content; margin: auto;">
+                <div class="w3-half w3-round-xlarge w3-mobile custom_display_tab">
+                    <img src="media/using_tablet.png" class="w3-right" alt="man_using_laptop" style="max-width: 100%; height: fit-content; margin: auto;">
                 </div>
             </div>
-        </div>
+        </div><br>
         <!-- Services -->
-        <div class="w3-round-xlarge services" style="width: 96%; margin: auto; background-color: rgb(40, 37, 37);">
+        <div id="services" class="w3-round-xlarge services" style="width: 96%; margin: auto; background-color: rgb(40, 37, 37);">
             <div class="w3-container">
                 <h1 style="font-weight: 600;">What We Offer?</h1>
                 <hr style="width: 20%;"> <br>
@@ -203,26 +203,44 @@
                         maxime reprehenderit ipsum minima minus?</p>
                 </div>
             </div>
+        </div><br>
+        <!-- Why Us -->
+        <div class="w3-padding-large" style="width: 96%; margin: auto; background-color: rgb(40, 37, 37);">
+            <div class="w3-container w3-row">
+                <div class="w3-half w3-mobile custom_display_tab"
+                    style="height: fit-content; padding: 25px 30px;">
+                    <img src="media/advertising.jpg" class="w3-round" class="w3-right" alt="man_using_laptop" style="max-width: 100%; height: fit-content; margin-left: 15%;">
+                </div>
+                <div class="w3-half w3-round-xlarge w3-mobile custom_display_tab w3-card-4  w3-border w3-border-blue"
+                    style="padding: 25px 30px;">
+                    <h1 class="w3-opacity w3-right-align" style="font-weight: 600;">Why Us?</h1>
+                    <p class="w3-small w3-margin">At our agency, we understand that in today's competitive landscape, 
+                        capturing your audience's attention and building strong brand connections is crucial. That's 
+                        why we specialize in crafting customized advertising solutions that make an impact and drive 
+                        measurable results. <br><br>From brainstorming captivating campaign concepts to executing flawlessly across multiple channels, we are with you every step of the way. 
+                </div>
+            </div>
         </div>
     </main>
     <footer class="w3-black">
         <div class="w3-container w3-padding-large w3-row">
             <div class="w3-third w3-mobile custom_display_tab">
-                <h3 class="w3-margin" style="font-weight: 900;">FusionEdge Advertising</h3>
-                <p class="w3-tiny w3-padding"><i>Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Voluptate voluptas fuga quis ea deserunt error explicabo minima amet ipsa
-                        autem a, labore tempora aut veritatis eveniet nobis! Repudiandae, ut. Officiis.</i></p>
-
+                <h3 class="w3-margin w3-text-blue" style="font-weight: 900;">FusionEdge Advertising</h3>
+                <p class="w3-tiny w3-padding"><i>An advertising agency, where creativity meets strategy and innovation
+                    fuels success.</i></p>
+                    <div class="w3-bar-block w3-padding">
+                        <p class="w3-small"><i class="fa fa-location"></i> <b>Lagos, Nigeria</b></p>
+                    </div>
             </div>
             <div class="w3-third w3-mobile w3-small custom_display_tab">
                 <h4 class="w3-margin" style="font-weight: 600;">Useful Links</h4>
                 <div class="w3-bar-block w3-padding">
-                    <a href="#" id="address" class="w3-bar-item w3-hover-text-gray">Home</a>
-                    <a href="#" id="address" class="w3-bar-item w3-hover-text-gray">About Us</a>
-                    <a href="#" id="address" class="w3-bar-item w3-hover-text-gray">Contact Us</a>
+                    <a href="#" class="w3-bar-item w3-hover-text-gray">Home</a>
+                    <a href="#about" class="w3-bar-item w3-hover-text-gray">About</a>
+                    <a href="#services" class="w3-bar-item w3-hover-text-gray">Services</a>
                 </div>
             </div>
-            <div class="w3-third w3-bar-block w3-mobile w3-small custom_display_tab">
+            <div id="contact" class="w3-third w3-bar-block w3-mobile w3-small custom_display_tab">
                 <h4 class="w3-margin" style="font-weight: 600;">Contact Details</h4>
                 <div class="w3-bar-block w3-padding">
                     <i class="fa fa-phone w3-bar-item"> <b><a class="w3-btn w3-hover-none w3-hover-text-gray"
